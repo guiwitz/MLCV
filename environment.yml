@@ -1,0 +1,25 @@
+name: CASMLCV
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pytorch
+  - torchvision
+  - pytorch-lightning
+  - scikit-learn
+  - scikit-image
+  - imagecodecs
+  - numpy
+  - matplotlib
+  - pandas
+  - seaborn
+  - pip
+  - jupyterlab=3.*
+  - ipywidgets
+  - pip:
+    - albumentations
+    - captum
+    - tqdm
+    - opencv-python
+    - psutil

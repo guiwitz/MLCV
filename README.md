@@ -6,7 +6,7 @@ This repository contains material for the Machine Learning for Computer Vision c
 
 ## Installation
 
-The necessary packages can easily be installed locally using conda with the [environment.yml](binder/environment.yml) file to create an environment:
+The necessary packages can easily be installed locally using conda with the [environment.yml](environment.yml) file to create an environment:
 
 ```
 conda env create -f environment.yml
@@ -15,7 +15,7 @@ conda env create -f environment.yml
 This environment can then be activated and Jupyter started with:
 
 ```
-conda activate DLImaging
+conda activate CASMLCV
 jupyter lab
 ```
 
